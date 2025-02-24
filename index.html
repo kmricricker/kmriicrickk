@@ -4,22 +4,29 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KmriCricker jw</title>
+  <title>Kmri Cricker</title>
   <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
 </head>
 <body>
+  <!-- Telegram Join Prompt -->
+  <script type="text/javascript">
+    if (confirm("Join Our Telegram Channel For Latest Update") == true) {
+      window.open("https://t.me/kmricricker", '_blank');
+    }
+  </script>
+
   <div id="video"></div>
 
   <script type="text/javascript">
     jwplayer("video").setup({
-      file: "https://live.drmlive-02.workers.dev/jc/122.m3u8",
       image: "https://i.postimg.cc/9XGtny3q/IMG-20250221-222251-004.jpg",
       width: "100%",
       aspectratio: "16:9",
-      autostart: false,
+      autostart: "false",
       primary: "html5",
       preload: "auto",
-      mute: false
+      mute: "false",
+      file: "https://jcevents.jiocinema.com/bpk-tv/JC_Sports18_1HD/JCHLS/hdntl=exp=1740470379~acl=/*~id=0aa6691b27e8b9b85d48501b96cd32ec~data=hdntl~hmac=213efdbad0e0b8fd17a39e6e4c2c9316c6a225fb4472f7bc7baca7c0b2816237/index.m3u8"
     });
   </script>
 
